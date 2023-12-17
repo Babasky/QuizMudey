@@ -19,6 +19,10 @@ var step = ()=>{
         skip.style.display = 'none'
         clearInterval(duration);
         compteur = 0
+        setTimeout(()=>{
+            document.location = 'index.html'
+
+        },5000)
     }
 }
 
