@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Quizz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <span>Score: <span id="score">0</span></span>
+            <span id="compteur">0</span>
+        </div>
+        <div class="quiz-body">
+            <div class="questionnaire active">
+                <h4>1. Que signifie l'acronyme HTML ?</h4>
+                <div class="reponse">
+                    <input type="radio" name="r1" valid ="valid">
+                    <span>HyperText Markup Language</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r1">
+                    <span>HyperText Market Long</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r1">
+                    <span>Hyper Tension Marketing Largest</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r1">
+                    <span>HyperText Mark Larson</span>
+                </div>
+            </div>
+            <div class="questionnaire">
+                <h4>2. Laquelle est une balise de titre</h4>
+                <div class="reponse">
+                    <input type="radio" name="r2">
+                    <span>&lt;br&gt;</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r2">
+                    <span>&lt;heading&gt;</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r2">
+                    <span>&lt;head&gt;</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r2" valid="valid">
+                    <span>&lt;h1&gt;</span>
+                </div>
+            </div>
+            <div class="questionnaire">
+                <h4>3. Que signifie l'acronyme CSS ?</h4>
+                <div class="reponse">
+                    <input type="radio" name="r3" valid="valid">
+                    <span>Cascading stylesheets</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r3">
+                    <span>Cascade Stock Steal</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r3">
+                    <span>Camera Scoop Svale</span>
+                </div>
+                <div class="reponse">
+                    <input type="radio" name="r3">
+                    <span>HyperText Markup Language</span>
+                </div>
+            </div>
+            <div class="questionnaire">
+                <h4>Votre score est : <span id="totalScore"> 0 </span> sur 100</h4>
+            </div>
+        </div>
+        <div class="quiz-footer">
+            <span class="btn" id="skip">Skip</span>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
