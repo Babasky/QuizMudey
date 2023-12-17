@@ -95,6 +95,13 @@ body{
     border-radius: 15px;
 }
 
+
+
+span#restart{
+    display: none;
+    width: 100px;
+}
+
 .btn:hover{
     background-color: green;
 }
